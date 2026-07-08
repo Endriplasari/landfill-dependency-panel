@@ -49,7 +49,7 @@ Raw indicators derive from **Eurostat**, the **World Bank (WDI)** and the **ITU*
 1. Open `CE_BDA_Analysis_OLS_and_ML.ipynb` in Colab.
 2. In the **Config** cell, either set `BASE_URL` to this repository's raw data path, e.g.
    ```python
-   BASE_URL = "https://raw.githubusercontent.com/<user>/<repo>/main/data/processed/"
+   BASE_URL = "https://raw.githubusercontent.com/Endriplasari/landfill-dependency-panel/main/data/processed/"
    ```
    or leave `BASE_URL = ""` and upload the two CSV files when prompted.
 3. **Runtime → Run all.**
