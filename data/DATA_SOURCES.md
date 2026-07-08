@@ -1,8 +1,7 @@
 # Data Sources
 
 This document lists the sources, codes, and access details for every indicator used in the
-analysis. Fill in the bracketed `[download date: ...]` fields with the dates on which you
-retrieved each series.
+analysis.
 
 ## Coverage
 
@@ -38,7 +37,7 @@ missing values were addressed by linear interpolation.
 - World Bank WDI: https://databank.worldbank.org/source/world-development-indicators
 - ITU statistics: https://www.itu.int/en/ITU-D/Statistics/
 
-`[download date: ____ ]`
+`[download date: 10/01/2026 ]`
 
 ### How the `cluster` id was produced
 K-means (`n_clusters=3`, `random_state=42`) on the z-scored vector of: landfill rate,
@@ -56,14 +55,14 @@ is confirmed by the Adjusted Rand Index (0.956–1.000) in the notebook (Section
 | Monthly landfilled tonnage | Total tonnes of municipal waste deposited in landfill per month, Municipality of Tirana |
 | Coverage | January 2017 – December 2024 |
 
-- **Source:** Municipality of Tirana (administrative records). `[source link / reference: ____ ]`
+- **Source:** Municipality of Tirana (administrative records). `[source link / reference: https://ckan.tirana.al/dataset/drejtoria-e-pergjithshme-e-pastrimit-dhe-gjelberimit/resource/86159672-64f6-463b-ba8c-2ccbd1cf39c6 \]`
 - **Missing values:** isolated gaps (notably parts of 2023) were linearly interpolated; this is
   documented in the notebook and affects the Seasonal-Naive benchmark.
 
 > If the monthly administrative data are not openly licensed for redistribution, replace the raw
 > file with an aggregated/anonymized version or provide access instructions here instead.
 
-`[download date: ____ ]`
+`[download date: 19/02/2026 ]`
 
 ---
 
