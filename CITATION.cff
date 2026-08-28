@@ -1,6 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite both the article and the software."
-title: "Landfill Dependency, Circular-Economy Regimes, and Big Data Analytics — data and code"
+message: "If you use this dataset or code, please cite the manuscript below."
+title: "Structural Determinants of Landfill Dependency in Emerging and Transition European Economies: A Fixed-Effects Panel Analysis — replication package"
+version: "2.0.0"
+date-released: "2026-08-28"
 authors:
   - family-names: "Myftaraj (Tomori)"
     given-names: "Elena"
@@ -8,25 +10,12 @@ authors:
     given-names: "Irena"
   - family-names: "Plasari"
     given-names: "Endri"
-year: 2026
-license: MIT
 repository-code: "https://github.com/Endriplasari/landfill-dependency-panel"
+license: MIT
 keywords:
   - circular economy
   - landfill dependency
-  - panel OLS
-  - Big Data Analytics
-  - XGBoost
+  - fixed-effects panel
+  - correlated random effects
+  - wild cluster bootstrap
   - transition economies
-preferred-citation:
-  type: article
-  title: "Structural Determinants of Landfill Dependency in Emerging and Transition European Economies: A Panel Analysis of Circular-Economy Regimes and the Mediating Role of Digitalization"
-  authors:
-    - family-names: "Myftaraj (Tomori)"
-      given-names: "Elena"
-    - family-names: "Fata"
-      given-names: "Irena"
-    - family-names: "Plasari"
-      given-names: "Endri"
-  journal: "Economies"
-  year: 2026
